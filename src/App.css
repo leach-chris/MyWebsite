@@ -8,7 +8,8 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.page1 {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,7 +18,7 @@
 }
 
 .services {
-  /* background-image: url('/images/img-2.jpg'); */
+  background-image: url('../public/images/img-15.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,16 +27,25 @@
 }
 
 .products {
-  /* background-image: url('/images/img-1.jpg'); */
+  background-image: url('../public/images/img-8.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+  background-image: url('../public/images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.page1 {
+  background-image: url('../public/images/img-5.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

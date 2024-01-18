@@ -3,11 +3,12 @@ import { Button } from './Button'
 import './HeroSection.css'
 import '../App.css'
 
+// Put this above the h1 tag to add video - <video src='/videos/video-1.mp4' autoPlay loop muted />
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src='/videos/video-1.mp4' autoPlay loop muted />
         <h1>THIS IS MY WEBSITE</h1>
         <p>More to come</p>
         <div className='hero-btns'>

@@ -37,13 +37,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/page1' className='nav-links' onClick={closeMobileMenu}>
                 Button 1
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/page2'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -52,7 +52,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/page3'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -62,7 +62,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='/page4'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
