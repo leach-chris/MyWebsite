@@ -10,19 +10,13 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <h1>THIS IS MY WEBSITE</h1>
-        <p>More to come</p>
+        <p>Take a look around</p>
         <div className='hero-btns'>
             <Button
                 className='bts'
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'>
-                    Button
-            </Button>
-            <Button
-            className='bts'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'>
-                Button <i className='far-fa-play-circle' />
+                    Weather
             </Button>
         </div>
     </div>

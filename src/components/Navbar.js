@@ -41,36 +41,7 @@ function Navbar() {
                 Weather
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/page2'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Button 2
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/page3'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Button 3
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/page4'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Button 4
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Button 4</Button>}
         </div>
       </nav>
     </>
