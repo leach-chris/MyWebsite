@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mywebsite-dev-e58eb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335272096:role/amplify-mywebsite-dev-e58eb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335272096:role/amplify-mywebsite-dev-e58eb-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-mywebsite-dev-e58eb-deployment",
+      "UnauthRoleName": "amplify-mywebsite-dev-e58eb-unauthRole",
+      "StackName": "amplify-mywebsite-dev-e58eb",
+      "StackId": "arn:aws:cloudformation:us-east-2:730335272096:stack/amplify-mywebsite-dev-e58eb/d60952e0-2a9e-11f0-a23c-067cf8ac9909",
+      "AmplifyAppId": "dw9o7950upf0j"
+    },
+    "categories": {
+      "function": {
+        "myWebsiteAPI": {
+          "deploymentBucketName": "amplify-mywebsite-dev-e58eb-deployment",
+          "s3Key": "amplify-builds/myWebsiteAPI-7069334d694878486e41-build.zip"
+        }
+      },
+      "storage": {
+        "CityCheckins": {}
+      }
+    }
+  }
+}

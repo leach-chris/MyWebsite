@@ -1,0 +1,33 @@
+{
+  "function": {
+    "myWebsiteAPI": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_myWebsiteAPI_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myWebsiteAPI"
+        }
+      ]
+    },
+    "AMPLIFY_function_myWebsiteAPI_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myWebsiteAPI"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "CityCheckins": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}

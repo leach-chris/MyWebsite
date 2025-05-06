@@ -1,0 +1,10 @@
+{
+  "resourceName": "CityCheckins",
+  "tableName": "CityCheckins",
+  "partitionKey": {
+    "fieldName": "city",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
