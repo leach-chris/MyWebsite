@@ -1,27 +1,26 @@
 {
+  "api": {
+    "myWebsiteAPI": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "myWebsiteAPI"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "function": {
     "myWebsiteAPI": {
       "build": true,
+      "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
-    }
-  },
-  "parameters": {
-    "AMPLIFY_function_myWebsiteAPI_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "myWebsiteAPI"
-        }
-      ]
-    },
-    "AMPLIFY_function_myWebsiteAPI_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "myWebsiteAPI"
-        }
-      ]
     }
   },
   "storage": {

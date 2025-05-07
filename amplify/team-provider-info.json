@@ -15,11 +15,15 @@
       "function": {
         "myWebsiteAPI": {
           "deploymentBucketName": "amplify-mywebsite-dev-e58eb-deployment",
-          "s3Key": "amplify-builds/myWebsiteAPI-7069334d694878486e41-build.zip"
+          "s3Key": "amplify-builds/myWebsiteAPI-453067586e47332f5865-build.zip",
+          "storageCitycheckinsName": "CityCheckins-dev"
         }
       },
       "storage": {
         "CityCheckins": {}
+      },
+      "api": {
+        "myWebsiteAPI": {}
       }
     }
   }

@@ -15,6 +15,9 @@
     },
     "s3Key": {
       "Type": "String"
+    },
+    "storageCitycheckinsName": {
+      "Type": "String"
     }
   },
   "Conditions": {
@@ -69,6 +72,9 @@
             },
             "REGION": {
               "Ref": "AWS::Region"
+            },
+            "STORAGE_CITYCHECKINS_NAME": {
+              "Ref": "storageCitycheckinsName"
             }
           }
         },

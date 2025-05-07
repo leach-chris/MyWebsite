@@ -41,6 +41,11 @@ function Navbar() {
                 Weather
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/checkin' className='nav-links' onClick={closeMobileMenu}>
+                Check In
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

@@ -1,3 +1,10 @@
 {
-  "lambdaLayers": []
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "storageCitycheckinsName",
+      "environmentVariableName": "STORAGE_CITYCHECKINS_NAME"
+    }
+  ],
+  "permissions": {}
 }
